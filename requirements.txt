@@ -1,0 +1,42 @@
+# yfinance株価監視ツール用の依存関係
+
+# メインライブラリ
+yfinance>=0.2.66
+pandas>=1.5.0
+numpy>=1.21.0
+
+# データ処理・分析
+requests>=2.28.0
+lxml>=4.9.0
+html5lib>=1.1
+
+# ログ・設定
+python-dateutil>=2.8.0
+
+# オプション: データ可視化（Looker Studio以外の可視化が必要な場合）
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# オプション: データベース連携（必要に応じて）
+# sqlite3  # Python標準ライブラリ
+# psycopg2-binary>=2.9.0  # PostgreSQL用
+# pymongo>=4.0.0  # MongoDB用
+
+# スケジューリング（定期実行用）
+schedule>=1.2.0
+
+# Google Sheets連携用
+gspread>=5.0.0
+google-auth>=2.0.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+
+# オプション: 通知機能
+# smtplib  # Python標準ライブラリ
+# requests-oauthlib>=1.3.0  # Twitter API用
+
+# 開発・テスト用（オプション）
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0
