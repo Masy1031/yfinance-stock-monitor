@@ -13,10 +13,15 @@ html5lib>=1.1
 # ログ・設定
 python-dateutil>=2.8.0
 
-# オプション: データ可視化（Looker Studio以外の可視化が必要な場合）
+# データ可視化
 matplotlib>=3.5.0
 seaborn>=0.11.0
 plotly>=5.0.0
+
+# Streamlit Webアプリケーション
+streamlit>=1.28.0
+streamlit-option-menu>=0.3.6
+streamlit-aggrid>=0.3.4
 
 # オプション: データベース連携（必要に応じて）
 # sqlite3  # Python標準ライブラリ
